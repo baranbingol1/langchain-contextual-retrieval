@@ -1,0 +1,3 @@
+langchain
+voyageai
+bm25s
