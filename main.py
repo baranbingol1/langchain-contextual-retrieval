@@ -6,7 +6,8 @@ from langchain_openai import ChatOpenAI
 from langchain_google_genai import GoogleGenerativeAIEmbeddings
 from langchain_core.vectorstores import InMemoryVectorStore
 
-# make sure you have API keys set for preferred components and additional langchain dependencies installed
+# make sure you have API keys set for preferred components in a .env file 
+# and additional langchain dependencies installed
 load_dotenv(find_dotenv(), override=True)
 
 contextualizer = ChatOpenAI(
